@@ -1,39 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="360" viewBox="0 0 1040 360" role="img" aria-labelledby="title desc">
-  <title id="title">Build systems. Grow teams. — 前端工程、团队管理与 AI 实践</title>
-  <desc id="desc">深色网格背景上，以工程建设与团队成长为主题，Engineering、Leadership 和 AI 三个节点相连。</desc>
+  <title id="title">组织协作下的 AI 与工程实践</title>
+  <desc id="desc">组织协作连接 AI 实践与前端工程化，并以虚线延伸至全栈探索。</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#20303c" stroke-opacity=".48" stroke-width=".7"/></pattern>
     <radialGradient id="light" cx="82%" cy="45%" r="65%"><stop stop-color="#123c40" stop-opacity=".7"/><stop offset="1" stop-color="#0c141e" stop-opacity="0"/></radialGradient>
-    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#64f5c4"/><stop offset="1" stop-color="#73bfff"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#64f5c4" stroke-width="1.2"/></marker>
   </defs>
   <rect width="1040" height="360" rx="16" fill="#0c141e"/>
   <rect width="1040" height="360" rx="16" fill="url(#grid)"/>
   <rect width="1040" height="360" rx="16" fill="url(#light)"/>
   <rect x=".5" y=".5" width="1039" height="359" rx="15.5" fill="none" stroke="#293b48"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif">
     <circle cx="43" cy="37" r="4" fill="#64f5c4"/>
-    <text x="58" y="42" font-size="12" font-family="monospace" letter-spacing="1.5" fill="#a5b8c9">ENGINEERING / LEADERSHIP / AI</text>
-    <text x="40" y="129" font-size="54" font-weight="750" letter-spacing="-1.8" fill="#f0f6fc">Build systems.</text>
-    <text x="40" y="190" font-size="54" font-weight="750" letter-spacing="-1.8" fill="#64f5c4">Grow teams.</text>
-    <text x="44" y="231" font-size="17" fill="#a5b8c9">前端工程 · 团队管理 · AI 实践</text>
+    <text x="58" y="42" font-size="12" font-family="monospace" letter-spacing="1.5" fill="#a5b8c9">ORGANIZATION / AI / ENGINEERING</text>
+    <text x="40" y="126" font-size="45" font-weight="700" letter-spacing="1" fill="#f0f6fc">组织协作下的</text>
+    <text x="40" y="189" font-size="50" font-weight="700" fill="#64f5c4">AI 与工程实践</text>
+    <text x="44" y="231" font-size="17" fill="#a5b8c9">前端工程化 · 全栈探索</text>
     <path d="M44 265H530" stroke="#293b48"/>
-    <text x="44" y="299" font-size="12" font-family="monospace" letter-spacing="1.2" fill="#8299ae">CODE → SYSTEMS → COLLABORATION</text>
-    <text x="982" y="42" text-anchor="end" font-size="11" font-family="monospace" fill="#718b9b">LEARN / BUILD / REFINE</text>
+    <text x="44" y="299" font-size="12" font-family="monospace" letter-spacing="1.2" fill="#8299ae">FRONTEND → FULL STACK</text>
   </g>
-  <g transform="translate(813 190)">
-    <circle r="119" fill="none" stroke="#2c5159"/>
-    <circle r="87" fill="none" stroke="#2c5159" stroke-dasharray="3 9"/>
-    <path d="M0-119 103 60H-103Z" fill="#64f5c4" fill-opacity=".025" stroke="url(#line)" stroke-opacity=".55"/>
-    <path d="M0-119V0L103 60M0 0-103 60" fill="none" stroke="#396573" stroke-dasharray="4 5"/>
-    <circle r="43" fill="#111f2b" stroke="#64f5c4"/>
-    <text y="-2" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#f0f6fc">BUILD</text>
-    <text y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="2" fill="#64f5c4">LEARN</text>
-    <g font-family="monospace" font-size="11" text-anchor="middle" fill="#d9e9f0">
-      <rect x="-68" y="-137" width="136" height="36" rx="7" fill="#12242d" stroke="#40636d"/><text y="-114">ENGINEERING</text>
-      <rect x="39" y="42" width="128" height="36" rx="7" fill="#12242d" stroke="#40636d"/><text x="103" y="65">LEADERSHIP</text>
-      <rect x="-150" y="42" width="94" height="36" rx="7" fill="#14302e" stroke="#64f5c4"/><text x="-103" y="65" fill="#64f5c4">AI</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif" text-anchor="middle">
+    <path d="M800 119V143M695 143H905M695 143V169M905 143V169" fill="none" stroke="#477479" stroke-width="1.5"/>
+    <path d="M695 225V249H800M905 225V249H800V277" fill="none" stroke="#64f5c4" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="4 5" marker-end="url(#arrow)"/>
+    <circle cx="800" cy="143" r="3" fill="#64f5c4"/>
+    <rect x="716" y="63" width="168" height="56" rx="9" fill="#152833" stroke="#60858b"/>
+    <text x="800" y="98" font-size="20" font-weight="600" fill="#f0f6fc">组织协作</text>
+    <g font-size="19" font-weight="600">
+      <rect x="610" y="169" width="170" height="56" rx="9" fill="#14302e" stroke="#64f5c4"/>
+      <text x="695" y="204" fill="#64f5c4">AI 实践</text>
+      <rect x="820" y="169" width="170" height="56" rx="9" fill="#152833" stroke="#73bfff"/>
+      <text x="905" y="204" fill="#a3d4ff">前端工程化</text>
     </g>
-    <circle cx="-112" cy="-41" r="4" fill="#64f5c4"/>
-    <circle cx="62" cy="102" r="3" fill="#73bfff"/>
+    <rect x="710" y="281" width="180" height="48" rx="9" fill="#101f2a" stroke="#537986" stroke-dasharray="4 4"/>
+    <text x="800" y="312" font-size="18" fill="#c1d6e3">全栈探索</text>
   </g>
 </svg>
