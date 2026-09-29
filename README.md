@@ -50,15 +50,11 @@
   <li><a href="https://github.com/leidaibo-lab/nest-learning-lab"><b>Nest Learning Lab</b></a> — 通过 Fastify、TypeScript 和业务示例继续学习后端工程。</li>
 </ul>
 
-<h2>一点点积累 <sup>Contribution snake</sup></h2>
+<hr />
 
-<p>让小蛇把这一年的贡献格子吃掉。</p>
+<!-- Animation: https://github.com/Platane/snk -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake.svg" />
-  <img src="./assets/contribution-snake.svg" width="100%" alt="贪吃蛇沿着 leidaibo-lab 的 GitHub 贡献格子移动，逐步吃掉有贡献的格子" />
+  <img src="./assets/contribution-snake.svg" width="100%" alt="GitHub 贡献贪吃蛇动画" />
 </picture>
-<p><sub>根据 GitHub 贡献记录生成 · 动画由 <a href="https://github.com/Platane/snk">Platane/snk</a> 驱动</sub></p>
-
-<hr />
-<p><sub>保持好奇，认真验证，持续记录。欢迎在项目中交流具体问题。</sub></p>
